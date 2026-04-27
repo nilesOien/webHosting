@@ -8,14 +8,21 @@ Given a <B>public</b> repo (can't be private unless you have <i>enterprise</i> g
   <li> Under <b>Build and Deployment</b> choose an <B>Action</B> as a source (the other option is a <b>Branch</b>)
   <li> Choose an appropriate <b>Action</b> template (Static HTML is the simplest one) by choosing <b>Configure</b>
   <li> Configure the yaml (often no changes are needed) and select <B>Commit</B>
+  <li> The workflow will be put somewhere like <B>.github/workflows/static.yaml</B> so do a 
+       <B>git pull</B> to get it (or git pushes will fail)
   <li> Commit the changes to the repo with an appropriate message. This triggers page deployment.
   <li> Deployment history is available under Settings -> Pages
+  <li> Subsequent pushes will trigger redeployment
  </ul>
 
 For this repo (named webHosting) the web page is at
  <A href="https://nilesoien.github.io/webHosting" target="_blank">
-  https://nilesoien.github.io/webHostinga
+  https://nilesoien.github.io/webHosting
  </a>
+and the git repo is at
+  <A href="https://github.com/nilesOien/webHosting" target="_blank">
+   https://github.com/nilesOien/webHosting
+  </a>
 
 </p>
 
