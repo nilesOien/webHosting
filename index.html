@@ -1,10 +1,25 @@
 <H2>GitHub Web Hosting</h2>
 
 <P>
-Given a repo that is a web page, the steps on the github repo page are :
+Given a <B>public</b> repo (can't be private unless you have <i>enterprise</i> gitHub</i>) 
+  that contains a web page, the steps on the github repo page are :
  <ul>
   <li> Settings -> Pages (in Code and automation section)
-  <li> 
+  <li> Under <b>Build and Deployment</b> choose an <B>Action</B> as a source (the other option is a <b>Branch</b>)
+  <li> Choose an appropriate <b>Action</b> template (Static HTML is the simplest one) by choosing <b>Configure</b>
+  <li> Configure the yaml (often no changes are needed) and select <B>Commit</B>
+  <li> Commit the changes to the repo with an appropriate message. This triggers page deployment.
+  <li> Deployment history is available under Settings -> Pages
  </ul>
+
+For this repo (named webHosting) the web page is at
+ <A href="https://nilesoien.github.io/webHosting" target="_blank">
+  https://nilesoien.github.io/webHostinga
+ </a>
+
+</p>
+
+<P>
+To do : Look at the Python deployment YAML, see if FastAPI is supported
 </p>
 
